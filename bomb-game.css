@@ -1,0 +1,146 @@
+.container {
+    
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(8, 75px);
+    grid-template-rows: repeat(5, 75px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+    
+}
+
+.squares{
+  border: 2px solid black;
+  border-radius: 25px;
+}
+.green {
+    background: #006836;
+    
+}
+
+.red {
+  background: #E75402;
+  
+}
+
+.yellow {
+  background: #E8BC11; 
+}
+
+.blue {
+  background: #024074;
+}
+
+.purple {
+  background: #6E1055; 
+}
+
+.black {
+  background: #414449;
+  transition: background 0.5s;
+}
+
+.finished {
+  background: #414449;
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.game-over{
+  font-weight: bold;
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+
+}
+
+button {
+  border: none;
+  background-color: #414449;
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 50px;
+  color: white;
+  border-radius: 15%;
+  outline: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-left: 60px;
+  display: inline-block;
+  position: absolute;
+  right: 310px;
+  
+
+  
+}
+
+#top-bar {
+  height: 40px;
+  margin: 50px auto;
+  text-align: center;
+ 
+}
+
+button:hover {
+  color: white;
+  background-color: steelblue;
+
+}
+
+#boom {
+  background: "#F80000";
+
+}
+
+#bomb-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 25%;
+  
+}
+
+#prev-score-text {
+  color: #414449;
+  font-size: 20px;
+  border: none;
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline-block;
+  padding-right: 25px;
+  position: absolute;
+  left: 380px;
+
+  
+  
+}
+
+#talk-shit {
+
+  color: #024074;
+  font-size: 20px;
+  border: none;
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase; 
+  display: inline-block;
+  left: 580px;
+  position: absolute;
+  
+ 
+  
+}
+
+
+
+#prev-score {
+  color: red;
+}
