@@ -38,8 +38,6 @@ for(var i = 0; i < squares.length; i++){
       prevScore = clicks;
       };
      
-if(clicks > prevScore){
-        talkShit.textContent = "Wow! you beat the previous score";}
   }; 
   
 });
